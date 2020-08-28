@@ -1,0 +1,270 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: block;
+    background: #000B10;
+    color: white;
+    text-align: center;
+    
+}
+
+h1{
+    font-family: "Courier", "italic";
+    margin: 0px;
+}
+
+/* barra de navegador */
+nav{
+    display: flex;
+    background: #011821;
+    color:white;
+    
+}
+
+.List{
+    display: inline-flex;
+    position: relative;;
+    flex: 2;
+    text-align: center;
+    justify-content: center;
+}
+
+ul{
+   display: inline-flex;
+   margin: auto;
+   padding: auto;
+   padding-left: 5px;
+}
+
+li{
+   margin: 15px;
+}
+
+.Home:hover{
+    background: linear-gradient(to bottom,transparent,#007700);
+}
+
+.My:hover{
+   background: linear-gradient(to bottom,transparent,#3B0364);
+}
+
+.Proyect:hover{
+    background: linear-gradient(to bottom,transparent,#956400);
+}
+
+.Pay:hover{
+    background: linear-gradient(to bottom,transparent,#951700);
+}
+
+i{
+    padding-right: 5px;
+}
+
+/*Contenido de la seccion uno y dos */
+
+.Conten{
+    display:flex;
+    flex-wrap: wrap;
+    font-family: "Courier";
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/6/3a/feathers-black-dark-4k-ultra-hd-background-black-wallpaper-b.jpg");
+    filter: contrast(180%);
+    padding: 0%;
+}
+
+/* Primera seccion */
+section{
+    display: flex;
+    min-width: 80%;
+    color:white;
+    flex-wrap: wrap; 
+    flex:1;
+    align-content: flex-start;
+    padding-left: 10px;
+}
+
+.Title{
+   font-size: 20px;
+   margin: auto;
+   text-align: center;
+   width: 100%;
+   padding-bottom: 5px;
+}
+
+h3{
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Par{
+   margin: auto;
+}
+
+/* segunda seccion */
+aside{
+    display: flex;
+    background: #3A3B3B;
+    color:white;
+    flex-wrap: wrap;
+    flex:2;
+    opacity: 0.6;
+}
+
+.Info{
+    padding-left: 10px;
+}
+h5{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+/* Pie de pagina */
+footer{
+    display: flex;
+    background: #000608;
+    font-family: "Courier";
+}
+
+/* enlaces */
+.Enlaces{
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+}
+
+img{
+    width: 40px;
+    padding: 5px 7px 2px 2px;
+}
+
+a{
+    color:white;
+}
+
+.Instagram{
+    display: flex;
+    color: white;
+}
+
+.Instagram:hover{
+    background: linear-gradient(to left,transparent 20%,#CE24CE);
+}
+
+.Instagram img{
+    filter: invert(100%);
+}
+
+.Github{
+    display: flex;
+    color: white;
+}
+
+.Github:hover{
+    background: linear-gradient(to left,transparent 20%,#FFF2B4);
+}
+
+.Github img{
+    filter: invert(100%);
+}
+
+.Facebook{
+    display: flex;
+    color: white;
+}
+
+.Facebook:hover{
+    background: linear-gradient(to left,transparent 20%,#1419DA)
+}
+
+.Facebook img{
+    filter: grayscale(100%);
+}
+
+.Twitter{
+    display: flex;
+    color: white;
+}
+
+.Twitter:hover{
+    background: linear-gradient(to left,transparent 20%,#23C7C7)
+}
+
+.Twitter img{
+    filter: grayscale(100%);
+}
+
+.Soundcloud{
+    display: flex;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.Soundcloud:hover{
+    background: linear-gradient(to left,transparent 20%,#FF8C2D)
+}
+
+.Soundcloud img{
+    filter: invert(100%);
+}
+
+/* Derechos reservados */
+.Copyright{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+}
+
+h6{
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+
+}
+
+/* proyectos */
+
+.Contenedor{
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    height: 560px;
+    width: 355px;
+    background-color: #FFF2B4;
+    border: 10px dashed #AAA540;
+}
+
+.PointerA{
+    display: flex;
+    height: 50px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.PointerB{
+    display: flex;
+    margin: auto;
+    background-color: #FFF2C4;
+    border: 4px dashed #FF8C2D;
+    height: 50px;
+    width: 360px;
+    color: black;
+    font-size: 20px;
+    font-size: 25px
+}    
+#player{
+    background-color: #951700;
+    border: 4px dashed #FF8C2D;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
